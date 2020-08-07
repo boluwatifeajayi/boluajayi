@@ -140,6 +140,111 @@ img{
     border: 3px solid #007bff;
     border-radius: 50%;
 }
+/*skills*/
+.skills {
+    width: 100%;
+    margin: 60px auto;
+    list-style: none;
+    
+    
+}
+
+.skills li {
+    margin: 20px 0;
+}
+
+.barr {
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    
+    box-shadow: 0 0 10px #007bff;
+}
+
+
+.barr span {
+    height: 2px;
+    float: left;
+    background: #007bff;
+}
+
+.html {
+    width: 93%;
+    animation: html 2s;
+    
+}
+
+.css {
+    width: 86%;
+    animation: css 2s;
+}
+
+.js {
+    width: 70%;
+    animation: js 2s;
+}
+
+.react {
+    width: 49%;
+    animation: react 2s;
+}
+
+.node {
+    width: 30%;
+    animation: node 2s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 93%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 86%;
+    }
+}
+
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 49%;
+    }
+}
+
+@keyframes node {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
 
 .banner-area{
 			position: relative;
@@ -176,12 +281,18 @@ img{
     }
 
     @media(max-width: 850px){
+        body {
+            
+            font-weight: light;
+
+        }
         .container{
             margin-top: 50px;
         }
         .my-name{
             font-size: 50px;
         }
+
     }
 
     
