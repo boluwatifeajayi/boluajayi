@@ -187,12 +187,12 @@ img{
 }
 
 .react {
-    width: 49%;
+    width: 55%;
     animation: react 2s;
 }
 
 .node {
-    width: 30%;
+    width: 45%;
     animation: node 2s;
 }
 
@@ -232,7 +232,7 @@ img{
     }
 
     100% {
-        width: 49%;
+        width: 55%;
     }
 }
 
@@ -242,7 +242,7 @@ img{
     }
 
     100% {
-        width: 30%;
+        width: 45%;
     }
 }
 
